@@ -1,0 +1,84 @@
+* {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background-image: url("contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.contactForm {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    width: 400px;
+}
+
+input {
+    color: white;
+    background-color: rgba(231, 231, 231, 0);
+    border: none;
+    border-bottom: 1px solid;
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+    line-height: 40px;
+    margin: 10px;
+    outline: none;
+}
+
+
+button {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+img {
+    height: 75px;
+    margin: 20px 5px 20px 20px;
+    width: 75px;
+    margin-bottom: 75px;
+}
+
+.contactItem {
+	width: 40%;
+    color: white;
+}
+.contactItem:hover {
+    background-color: lightgray;
+}
+
+
+.contactContent {
+    border-left: 3px solid green;
+    display: inline-block;
+    margin: 30px 15px;
+    padding-left: 15px;
+}
+.contactLabel {
+     color: white;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin: 5px 5px 5px 0px;
+}
+.contactEmail {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.contactEmail:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
